@@ -1,0 +1,13 @@
+.todo-list {
+    font-family: 'Nanum Myeongjo', serif;
+    margin: 200px 400px;
+    border: olivedrab 2px solid;
+  }
+
+.todo-title {
+    background-color: olivedrab;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}

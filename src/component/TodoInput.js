@@ -1,22 +1,24 @@
 import React, { Component } from 'react';
 import './TodoInput.css';
 
+// const TodoInput = ({ text, onClick, onChange })
+
 class TodoInput extends Component {
     render() {
-        const { text, onClick } = this.props;
+        const { inputText, onChange, onClick, onKeyPress } = this.props;
         return(
-            <div>
-                <form className="input-form">
-                    <input
-                        value={ text }
-                        type="text"
-                        className="input-text"
-                        placeholder="오늘 할 일을 입력하세요.">
-                    </input>
-                    <span 
-                        className="input-btn"
-                        onClick={ onClick }>등록</span>
-                </form>
+            <div className="input-form">
+                <input
+                    value={ inputText }
+                    type="text"
+                    className="input-text"
+                    placeholder="오늘 할 일을 입력하세요."
+                    onChange={ onChange }
+                    onKeyPress={ onKeyPress }>
+                </input>
+                <span 
+                    className="input-btn"
+                    onClick={ onClick }><i class="fas fa-check"></i></span>
             </div>
         )
     }

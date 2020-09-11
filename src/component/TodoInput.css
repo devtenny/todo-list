@@ -1,11 +1,26 @@
-
-
-.input-text {
-    border-style: none;
+.input-form {
+    padding: 15px;
     border-bottom: olivedrab 2px solid;
 }
 
+.input-text {
+    padding: 10px;
+    color: white;
+    border-style: none;
+    width: 90%;
+    font-size: 15px;
+    background-color: rgb(43, 39, 34);
+}
+
 .input-btn {
-    margin-left: 5px;
-    color: olivedrab
+    color: olivedrab;
+    padding-top: 10px;
+    width: 30px;
+    float: right;
+    font-size: 20px;
+    text-align: center;
+}
+
+.input-btn:hover {
+    cursor: pointer;
 }

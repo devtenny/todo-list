@@ -1,0 +1,37 @@
+.todo-item-list {
+    margin: 10px;
+    color: white;
+}
+
+.todo-item {
+    padding: 5px;
+}
+
+.todo-item:hover {
+    background-color: darkolivegreen;
+    cursor: pointer
+}
+
+.deleteBtn {
+    color: rgb(179, 62, 46);
+    float: right;
+}
+    
+.updated {
+    display: block;
+    margin-left: 5px;
+    border: none;
+    border-bottom: olivedrab 1px solid;
+    width: 231px;
+    color: white;
+    background-color: rgb(43, 39, 34);
+}
+
+.not-updated {
+    display: none;
+}
+
+#checked {
+    color: grey;
+    text-decoration-line: line-through;
+}
